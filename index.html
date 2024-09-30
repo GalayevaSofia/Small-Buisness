@@ -5,7 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/custom.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
   <script defer src="js/fontawesome-all.min.js"></script>
 
 </head>
@@ -14,7 +16,7 @@
   <!--Менюшка-->
   <nav class="navbar navbar-expand-lg bg-light fixed-top border-bottom">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Маленький бизнес</a>
+      <a class="navbar-brand" href="index.html"><img src="./img/fashion-spa.svg" alt="" height="50px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -57,13 +59,13 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-12 col-lg-6 mb-3 mb-lg-0">
-          <img src="./img/730x400.png" alt="Картинка" class="img-fluid mt-4">
+          <img src="./img/fashion-spa.jpg" alt="Картинка" class="img-fluid mt-4 rounded shadow">
         </div>
         <div class="col-12 col-lg-6">
-          <h1 class="display-1">Маленький бизнес</h1>
-          <p class="lead">Мы поможем вам создать свой бизнес</p>
+          <h1 class="display-1">Спа-салон</h1>
+          <p class="lead">Расслабляйтесь с нами</p>
           <a class="btn btn-primary" href="#" role="button">Читать дальше</a>
-          <a class="btn btn-outline-primary" href="#" role="button">Связаться</a>
+          <a class="btn btn-outline-primary" href="#" role="button" style="color: #fdaac8">Связаться</a>
 
         </div>
       </div>
@@ -73,11 +75,10 @@
   <!--Предложение мега-->
   <div class="py-3">
     <div class="container">
-      <div class="alert alert-warning" role="alert">
-        <h2>Lorem, ipsum.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ab neque exercitationem maiores ratione
-          expedita placeat. Quae cumque odit, corporis blanditiis unde, iste, omnis ut placeat repellat temporibus
-          voluptates dignissimos.</p>
+      <div class="alert alert-warning shadow" role="alert">
+        <h2>Уникальное предложение для вас</h2>
+        <p>В нашем спа-салоне вы сможете забыть о стрессе и усталости, и насладиться моментом релаксации. Мы предлагаем
+          вам широкий спектр услуг, от массажа до косметических процедур.</p>
       </div>
     </div>
   </div>
@@ -88,30 +89,29 @@
       <div class="row mt-5">
         <div class="col-lg-6 col-12">
           <div class="row ">
-            <div class="col-lg-6 col-md-6 col-sm-12 "> <img class="rounded-circle img-fluid" src="./img/300x300.png"
+            <div class="col-lg-6 col-md-6 col-sm-12 "> <img class="rounded-circle img-fluid" src="./img/lotus.png"
                 alt=""></div>
             <div class="col-lg-6 col-md-6 col-sm-12 ">
-              <h3>Lorem, ipsum.</h3>
+              <h3>Наш спа-салон</h3>
               <p class="lead">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos corrupti tenetur placeat nesciunt,
-                quis a asperiores corporis quam quisquam in veritatis obcaecati dolorem incidunt suscipit totam ea,
-                cupiditate minus quod?
-                This line of text will render as underlined.</p>
+                В нашем спа-салоне вы сможете забыть о стрессе и усталости, и насладиться моментом релаксации. Мы
+                предлагаем
+                вам широкий спектр услуг, от массажа до косметических процедур. Наш опытный персонал поможет вам выбрать
+                наиболее подходящий для вас вариант и обеспечит вам комфортное пребывание в нашем салоне.</p>
               <button type="button" class="btn btn-primary">Primary</button>
             </div>
           </div>
         </div>
         <div class="col-lg-6  col-12">
           <div class="row py-3 py-lg-0">
-            <div class="col-lg-6 col-md-6 col-12"> <img class="rounded-circle img-fluid" src="./img/300x300.png" alt="">
+            <div class="col-lg-6 col-md-6 col-12"> <img class="rounded-circle img-fluid" src="./img/lotus.png" alt="">
             </div>
             <div class="col-lg-6 col-md-6 col-12">
-              <h3>Lorem, ipsum.</h3>
+              <h3>Услуги спа-салон</h3>
               <p class="lead">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos corrupti tenetur placeat nesciunt,
-                quis a asperiores corporis quam quisquam in veritatis obcaecati dolorem incidunt suscipit totam ea,
-                cupiditate minus quod?
-                This line of text will render as underlined.</p>
+                Мы предлагаем вам широкий спектр услуг, включая массаж, косметические процедуры, уход за кожей и
+                волосами,
+                а также другие услуги, направленные на улучшение вашего физического и эмоционального состояния.</p>
               <button type="button" class="btn btn-primary">Primary</button>
             </div>
           </div>
@@ -126,56 +126,60 @@
       <div class="col-12 col-lg-3 col-md-6 py-lg-0 py-2">
         <div class="card">
           <div class="card-header">
-            Published:
+            Опубликовано:
           </div>
           <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <h5 class="card-title">Новый массажный курс</h5>
+            <p class="card-text">Мы рады представить вам новый массажный курс, который поможет вам расслабиться и
+              забыть о стрессе.</p>
           </div>
           <div class="card-footer text-muted d-grid gap-2">
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary">Узнать больше</a>
           </div>
         </div>
       </div>
       <div class="col-12 col-lg-3 col-md-6 py-lg-0 py-2">
         <div class="card">
           <div class="card-header">
-            Published:
+            Опубликовано:
           </div>
           <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <h5 class="card-title">Новые косметические процедуры</h5>
+            <p class="card-text">Мы рады представить вам новые косметические процедуры, которые помогут вам улучшить
+              состояние вашей кожи и волос.</p>
           </div>
           <div class="card-footer text-muted d-grid gap-2">
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary">Узнать больше</a>
           </div>
         </div>
       </div>
       <div class="col-12 col-lg-3 col-md-6 py-lg-0 py-2">
         <div class="card">
           <div class="card-header">
-            Published:
+            Опубликовано:
           </div>
           <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <h5 class="card-title">Специальное предложение</h5>
+            <p class="card-text">Мы рады представить вам специальное предложение для новых клиентов. Не упустите
+              возможность испытать наши услуги по привлекательной цене.</p>
           </div>
           <div class="card-footer text-muted d-grid gap-2">
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary">Узнать больше</a>
           </div>
         </div>
       </div>
       <div class="col-12  col-lg-3 col-md-6 py-lg-0 py-2">
         <div class="card">
           <div class="card-header">
-            Published:
+            Опубликовано:
           </div>
           <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <h5 class="card-title">Уход за кожей</h5>
+            <p class="card-text">Мы предлагаем вам широкий спектр услуг по уходу за кожей, включая чистку, тонизацию и
+              увлажнение.</p>
           </div>
           <div class="card-footer text-muted d-grid gap-2">
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary">Узнать больше</a>
           </div>
         </div>
       </div>
@@ -184,7 +188,7 @@
 
   <!--Подвал-->
   <div class="bg-light py-3">
-    <footer class="bg-body-tertiary text-lg-start">
+    <footer class="text-lg-start">
       <div class="container p-4">
         <div class="row">
           <div class="col-md-3 col-12 mb-4 mb-md-0">
@@ -213,13 +217,13 @@
 
             <ul class="list-unstyled">
               <li>
-                <a href="#!" class="">Lorem, ipsum dolor.</a>
+                <a href="#!" class="">О спа-салоне</a>
               </li>
               <li>
-                <a href="#!" class="">Lorem ipsum dolor sit.</a>
+                <a href="#!" class="">Услуги и цены</a>
               </li>
               <li>
-                <a href="#!" class="">Lorem, ipsum.</a>
+                <a href="#!" class="">Отзывы клиентов</a>
               </li>
             </ul>
           </div>
@@ -228,17 +232,9 @@
 
             <ul class="list-unstyled mb-0">
               <li>
-                <div class="fa-layers fa-fw fa-x">
-                  <i class="fa fa-circle text-primary"></i>
-                  <i class="fas fa-phone text-white" data-fa-transform="shrink-5"></i>
-                </div>
                 <a href="#!" class="">WhatsApp</a>
               </li>
               <li>
-                <div class="fa-layers fa-fw fa-x">
-                  <i class="fa fa-circle text-primary"></i>
-                  <i class="fab fa-facebook text-white"></i>
-                </div>
                 <a href="#!" class="">Facebook </a>
               </li>
             </ul>
